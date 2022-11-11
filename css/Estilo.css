@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+body{
+    width: 100%;
+    background: rgb(253, 253, 253);
+}
+
+
+.Section-Menu{
+    background-color: rgb(0, 0, 0);
+    font-size: 22px;
+    width: 100%;
+    height: 90px;
+}
+
+.Imagen{
+    margin: 10px 0px 0px -400px;
+    width: 150px;
+    height: 70px;
+}
+
+
+.Section-Hero{
+    margin-top: 160px;
+    
+}
+
+.Text-Imprenta{
+    margin-left: -130px;
+
+}
+
+.Buttons{
+
+    display: flex;
+    margin-left: -90px;
+}
+
+.button-primary{
+    border-radius: 20px;
+}
+
+.button-primary2{
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 1.5px solid black;
+}
+
+.imagen2{
+    width: 700px; 
+    height: 450px;
+    margin: -90px 0px 0px 100px;
+}
+
+
+.container{
+    text-align: center;
+    
+}
+
+.h2-iconos{
+    font-size: 24px;
+}
+.imagenIcon{
+    border-radius: 50px;
+    margin-top: 110px;
+    width: 85px;
+    height: 70px;
+}
+
+.imagenIcon3{
+    border-radius: 50px;
+    margin-top: 100px;
+    width: 97px;
+    height: 87px;
+}
+
+.Menu{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;   
+    list-style: none;
+
+}
+
+.Menu li a{
+    color: black;
+    margin-right: 10px;
+    background: rgb(0, 0, 0);
+    border-right: 1px solid rgb(192, 192, 192);
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    
+}
+
+.Section-Noticia{
+
+    margin-top: 100px;
+
+}
+
+.Text-Noticia{
+    text-align: justify;
+    margin-left: -130px;
+    
+}
+
+h5{
+    font-size: 17px;
+}
+
+.imagen3{
+    width: 550px;
+    height: 240px;
+    margin-left: 90px;
+}
+
+.img-slider{
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.Section-Slider{
+    width: 80%;
+    max-width: 900px;
+    margin: 70px auto;
+    position: relative;
+
+}
+.slider{
+
+    width: 60%;
+    text-align: center;
+    margin: 120px 120px;
+}
+
+.slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.btn-left{
+    left: 10px;
+    font-size: 35px;
+    margin-top: -70px;
+}
+
+.btn-right{
+    right: 85px;
+    font-size: 35px;
+    margin-top: -70px;
+}
+
+
+.Section-Footer{
+    background-color: black;
+    margin-top: 70px;
+    width: 100%;
+    height: 80px;
+}
+
+.Section-Footer ul{
+    justify-content: center;
+}
